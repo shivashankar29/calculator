@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+    border: solid black 2px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+input[type="button"] {
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    width: 100%;
+    font-size: 50px;
+}
+
+input[type="text"] {
+    background-color: white;
+    border: solid black 2px;
+    width: 100%;
+    font-size: 50px;
+}
+
+input[type="button"]:hover {
+    background-color: gray;
+    color: black;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
